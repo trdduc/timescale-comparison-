@@ -18,13 +18,13 @@ This repository provides tools to investigate and compare the insertion, query, 
     - `insertion/`: Scripts for insert operations
     - `queries/`: Scripts for query operations
     - `deletion/`: Scripts for delete operations
-- **libraries.txt**:  requirements file used during the Docker build process to install all necessary dependencies into the Python
+- **requirements.txt**:  requirements file used during the Docker build process to install all necessary dependencies into the Python
 
 Although the scripts are designed to save files in folders corresponding to their characteristics, this structure is merely an example used in this study and can be customized as desired. The key components are the scripts in the 'scripts' directory and their associated README files for understanding; the rest can be adapted to suit individual needs.
 
 ## Deployment
 
-This project utilizes Docker Compose to configure the required services, eliminating the need for local Python installations or library dependencies. If Docker is not being used, the necessary dependencies are specified in the libraries.txt file. 
+This project utilizes Docker Compose to configure the required services, eliminating the need for local Python installations or library dependencies. If Docker is not being used, the necessary dependencies are specified in the requirements.txt file. 
 
 ### Steps
 
