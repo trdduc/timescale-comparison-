@@ -1,0 +1,6 @@
+data/
+metrics/
+*.csv
+*.7z
+*.zip
+.git/
